@@ -1,0 +1,27 @@
+"filename", "language", "Groovy", "Markdown", "Properties", "Batch", "XML", "Java", "JSON", "comment", "blank", "total"
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\.idea\compiler.xml", "XML", 0, 0, 0, 0, 6, 0, 0, 0, 0, 6
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\.idea\gradle.xml", "XML", 0, 0, 0, 0, 21, 0, 0, 0, 0, 21
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\.idea\jarRepositories.xml", "XML", 0, 0, 0, 0, 25, 0, 0, 0, 0, 25
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\.idea\misc.xml", "XML", 0, 0, 0, 0, 9, 0, 0, 0, 0, 9
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\README.md", "Markdown", 0, 2, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\build.gradle", "Groovy", 33, 0, 0, 0, 0, 0, 0, 0, 6, 39
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\release\output-metadata.json", "JSON", 0, 0, 0, 0, 0, 0, 18, 0, 0, 18
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\androidTest\java\com\arshsaxena\github\io\ExampleInstrumentedTest.java", "Java", 0, 0, 0, 0, 0, 15, 0, 6, 5, 26
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\AndroidManifest.xml", "XML", 0, 0, 0, 0, 19, 0, 0, 0, 1, 20
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\java\com\arshsaxena\github\io\MainActivity.java", "Java", 0, 0, 0, 0, 0, 62, 0, 0, 5, 67
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\res\drawable-v24\ic_launcher_foreground.xml", "XML", 0, 0, 0, 0, 30, 0, 0, 0, 0, 30
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\res\drawable\ic_launcher_background.xml", "XML", 0, 0, 0, 0, 74, 0, 0, 0, 1, 75
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\res\layout\activity_main.xml", "XML", 0, 0, 0, 0, 14, 0, 0, 0, 2, 16
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml", "XML", 0, 0, 0, 0, 5, 0, 0, 0, 0, 5
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml", "XML", 0, 0, 0, 0, 5, 0, 0, 0, 0, 5
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\res\values-night\themes.xml", "XML", 0, 0, 0, 0, 11, 0, 0, 5, 0, 16
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\res\values\colors.xml", "XML", 0, 0, 0, 0, 11, 0, 0, 0, 0, 11
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\res\values\strings.xml", "XML", 0, 0, 0, 0, 3, 0, 0, 0, 0, 3
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\main\res\values\themes.xml", "XML", 0, 0, 0, 0, 11, 0, 0, 5, 0, 16
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\app\src\test\java\com\arshsaxena\github\io\ExampleUnitTest.java", "Java", 0, 0, 0, 0, 0, 9, 0, 5, 3, 17
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\build.gradle", "Groovy", 18, 0, 0, 0, 0, 0, 0, 3, 3, 24
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\gradle.properties", "Properties", 0, 0, 3, 0, 0, 0, 0, 16, 0, 19
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\gradle\wrapper\gradle-wrapper.properties", "Properties", 0, 0, 5, 0, 0, 0, 0, 1, 1, 7
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\gradlew.bat", "Batch", 0, 0, 0, 61, 0, 0, 0, 0, 24, 85
+"c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\app-backup\ArshSaxena-App\settings.gradle", "Groovy", 2, 0, 0, 0, 0, 0, 0, 0, 0, 2
+"Total", "-", 53, 2, 8, 61, 244, 86, 18, 41, 52, 565
