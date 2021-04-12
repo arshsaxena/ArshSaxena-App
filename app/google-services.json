@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306661222676",
+    "project_id": "arshsaxena-app",
+    "storage_bucket": "arshsaxena-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306661222676:android:22258c8918c6c97b91fa01",
+        "android_client_info": {
+          "package_name": "com.arshsaxena.github.io"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306661222676-g1jqgr3n1v6uk3nofubs5p12a6u4cjqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVZTOhJE1FzkQpFEIzt5MbNZUScHwF_J0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306661222676-g1jqgr3n1v6uk3nofubs5p12a6u4cjqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
