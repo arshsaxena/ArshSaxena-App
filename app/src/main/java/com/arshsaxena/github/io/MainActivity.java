@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         myWebView.loadUrl("https://arshsaxena.github.io");
     }
+
     private class MyBrowser extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
@@ -47,12 +48,14 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
     }
+
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         Bundle bundle = new Bundle();
         myWebView.saveState(bundle);
         outState.putBundle("webViewState", bundle);
     }
+
     @Override
     protected void onRestoreInstanceState(Bundle state) {
         super.onRestoreInstanceState(state);
@@ -60,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         myWebView.saveState(bundle);
         state.putBundle("webViewState", bundle);
     }
+
     @Override
     public void onBackPressed() {
         if (myWebView.canGoBack()) {
