@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="websitegrey">#1d1d1f</color>
+    <color name="arshgreen">#02BB09</color>
+    <color name="notificationgreen">#0F9D58</color>
 </resources>

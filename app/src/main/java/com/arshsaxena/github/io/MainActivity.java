@@ -13,6 +13,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 import android.webkit.WebViewClient;
+import android.widget.Button;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 
@@ -33,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
             WebSettings webSettings = myWebView.getSettings();
             webSettings.setLoadsImagesAutomatically(true);
             webSettings.setJavaScriptEnabled(true);
-            myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
             webSettings.setAllowContentAccess(true);
             webSettings.setAllowFileAccess(true);
             webSettings.setAppCacheEnabled(true);
             webSettings.setDomStorageEnabled(true);
             webSettings.setUseWideViewPort(true);
+            myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
             myWebView.loadUrl("https://arshsaxena.github.io/");
             myWebView.setWebViewClient(new MyBrowser(){
                 public void onReceivedError(WebView myWebView, int i, String s, String s1){

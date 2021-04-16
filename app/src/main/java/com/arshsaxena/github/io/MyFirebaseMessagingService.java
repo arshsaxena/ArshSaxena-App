@@ -24,8 +24,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         notificationBuilder.setContentTitle("FCM NOTIFICATION");
         notificationBuilder.setContentText(remoteMessage.getNotification().getBody());
         notificationBuilder.setAutoCancel(true);
-        notificationBuilder.setLargeIcon(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.mipmap.notifictaion_icon_foreground), 128, 128, false));
-        notificationBuilder.setSmallIcon(R.mipmap.notifictaion_icon_foreground);
+        notificationBuilder.setLargeIcon(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.notification_icon), 128, 128, false));
+        notificationBuilder.setSmallIcon(R.drawable.notification_icon);
         notificationBuilder.setContentIntent(pendingIntent);
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(0,notificationBuilder.build());
