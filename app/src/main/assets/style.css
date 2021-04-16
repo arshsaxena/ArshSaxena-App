@@ -29,3 +29,7 @@ b{
     color: white;
     text-decoration: none;
 }
+#clock{
+    font-weight: normal;
+    font-size: 19px;
+}
