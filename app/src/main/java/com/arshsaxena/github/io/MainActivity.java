@@ -2,8 +2,11 @@ package com.arshsaxena.github.io;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             ((WebView) findViewById(R.id.webView)).restoreState(savedInstanceState.getBundle("webViewState"));
         }
         else {
-            myWebView = (WebView)findViewById(R.id.webView);
             myWebView = (WebView)findViewById(R.id.webView);
             WebSettings webSettings = myWebView.getSettings();
             webSettings.setLoadsImagesAutomatically(true);
@@ -65,7 +67,11 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
             });
-            myWebView.loadUrl("https://arshsaxena.github.io/index.html");
+            if(haveNetworkConnection()){
+                myWebView.loadUrl("https://arshsaxena.github.io/");
+            } else {
+                myWebView.loadUrl("file:///android_asset/noNetwork.html");
+            }
         }
     }
 
@@ -77,6 +83,24 @@ public class MainActivity extends AppCompatActivity {
             view.loadUrl(url);
             return true;
         }
+    }
+
+    private boolean haveNetworkConnection() {
+        boolean haveConnectedWifi = false;
+        boolean haveConnectedMobile = false;
+
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo[] netInfo = cm.getAllNetworkInfo();
+
+        for (NetworkInfo ni : netInfo) {
+            if (ni.getTypeName().equalsIgnoreCase("WIFI"))
+                if (ni.isConnected())
+                    haveConnectedWifi = true;
+            if (ni.getTypeName().equalsIgnoreCase("MOBILE"))
+                if (ni.isConnected())
+                    haveConnectedMobile = true;
+        }
+        return haveConnectedWifi || haveConnectedMobile;
     }
 
     protected void onSaveInstanceState(Bundle outState) {
