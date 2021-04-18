@@ -40,12 +40,16 @@ public class MainActivity extends AppCompatActivity {
             webSettings.setDomStorageEnabled(true);
             webSettings.setUseWideViewPort(true);
             myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-            myWebView.loadUrl("https://arshsaxena.github.io/");
             myWebView.setWebViewClient(new MyBrowser(){
                 public void onReceivedError(WebView myWebView, int i, String s, String s1){
                     myWebView.loadUrl("file:///android_asset/404.html");
                 }
-
+                @Override
+                public void onPageFinished(WebView myWebView, String url)
+                {
+                    myWebView.loadUrl("javascript:(function() { " + "document.getElementsByClassName('app-banner-mobile')[0].style.display='none'; })()");
+                    myWebView.loadUrl("javascript:(function() { " + "document.getElementById('app-banner-mobile').style.display='none';})()");
+                }
                 @Override
                 public boolean shouldOverrideUrlLoading(WebView myWebView, String url) {
                     if (url == null || url.startsWith("http://") || url.startsWith("https://"))
@@ -61,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
             });
+            myWebView.loadUrl("https://arshsaxena.github.io/index.html");
         }
     }
 
