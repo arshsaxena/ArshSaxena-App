@@ -12,4 +12,5 @@ This app has all the features available on this website. To stay connected and e
 <b>Release date:</b> April 19, 2021 <br>
 <b>Permissons:</b> The app will use your internet and does not require any other permissons. <br>
 <b>Language(s):</b> English <br>
-<b>© Arsh Saxena</b>
+<b><a href="https://arshsaxena.github.io/pages/app/">DOWNLOAD NOW!</a></b> <br><br>
+<b align="center">© Arsh Saxena</b>
