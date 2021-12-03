@@ -1,8 +1,8 @@
 # ArshSaxena-App
 ## <p align="center">  <b><a href="https://arshsaxena.github.io/pages/app/">DOWNLOAD NOW!</a></b></p>
 <img src="https://raw.githubusercontent.com/arshsaxena/ArshSaxena-App/main/github-readme-resources/screenshot.jpg?token=APYVMDJR2ZIUBLIE2GOBJMTAPWBYE">
-This is Arsh Saxena's official web view app. <br>
-This app has all the features available on this website. To stay connected and enjoy all the features download this app now!
+This is <b>Arsh Saxena</b>'s official web view app. <br>
+This app has all the features available on <b><a href="https://arshsaxena.github.io/">Arsh Saxena's wesbite</a></b>. To stay connected and enjoy all the features download this app now!
 <br>
 <br>
 <b>Developer:</b> Arsh Saxena <br>
